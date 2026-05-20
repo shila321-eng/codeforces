@@ -1,4 +1,4 @@
-//https://codeforces.com/problemset/problem/2210/B
+ //https://codeforces.com/problemset/problem/2210/B
 import java.util.Scanner;
 
 public class SittingChair {
