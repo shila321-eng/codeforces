@@ -10,17 +10,17 @@ public class SittingChair {
             p[i] = sc.nextInt();
         }
         int minmark = n + 1;
-        int currentsitting = 0;
+        int currentSitting = 0;
         int ans = 0;
         for (int i = 1; i < n; i++) {
             if (i >= minmark) {
                 break;
             }
-            currentsitting++;
+            currentSitting++;
             if (p[i] > i) {
                 minmark = Math.min(minmark, p[i]);
             }
-            ans = Math.max(ans, currentsitting);
+            ans = Math.max(ans, currentSitting);
 
         }
         System.out.println(ans);
